@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Expanded Note Blocks - Resource",
+        "description": "Want to do more with your note blocks?  Volume, duration, pitch?  All of these things are at your fingertips with this addon.",
+        "uuid": "793c9cae-2c73-42f6-bd41-1319cc7c3e8d",
+        "version": [ 0, 1, 0 ],
+        "min_engine_version": [ 1, 20, 30 ]
+    },
+    "modules": [
+        {
+            "description": "Expanded Note Blocks",
+            "type": "resources",
+            "uuid": "a4d5b76a-1406-403a-96eb-db46017b1f89",
+            "version": [ 0, 1, 0 ]
+        }
+    ]
+}

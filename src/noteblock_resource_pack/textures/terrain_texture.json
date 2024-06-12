@@ -1,0 +1,11 @@
+{
+    "resource_pack_name": "expandednotes",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "advanced_note_block": {
+            "textures": "textures/blocks/advanced_note_block"
+        }
+    }
+}

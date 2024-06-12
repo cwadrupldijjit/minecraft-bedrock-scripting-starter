@@ -1,0 +1,36 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Expanded Note Blocks - Behavior",
+        "description": "Want to do more with your note blocks?  Volume, duration, pitch?  All of these things are at your fingertips with this addon.",
+        "uuid": "e07e4682-a855-4894-95d6-c451b098f2c9",
+        "version": [ 0, 1, 0 ],
+        "min_engine_version": [ 1, 20, 30 ]
+    },
+    "modules": [
+        {
+            "description": "Expanded Note Blocks - data",
+            "type": "data",
+            "uuid": "c13ee969-bc10-4a3c-8c74-28da26cbed01",
+            "version": [ 0, 1, 0 ]
+        },
+        {
+            "description": "Expanded Note Blocks - Scripts",
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/index.js",
+            "uuid": "90bac89e-3446-4a8e-bd7b-eee8578b8967",
+            "version": [ 0, 1, 0 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "793c9cae-2c73-42f6-bd41-1319cc7c3e8d",
+            "version": [ 0, 1, 0 ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.7.0-beta"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.3.0",
+    "configurations": [
+        {
+            "type": "minecraft-js",
+            "request": "attach",
+            "name": "Attach to Minecraft",
+            "mode": "listen",
+            "localRoot": "${workspaceFolder}/src/noteblock_behavior_pack/scripts",
+            "generatedSourceRoot": "${workspaceFolder}/dist/noteblock_behavior_pack/scripts",
+            "sourceMapRoot": "${workspaceFolder}/dist/noteblock_behavior_pack/scripts",
+            "host": "localhost",
+            "port": 19144
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug asset sync",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "runtimeArgs": [
+                "--loader",
+                "ts-node/esm",
+                "-r",
+                "ts-node/register"
+            ],
+            "program": "${workspaceFolder}/scripts/sync-assets.ts",
+            "env": {
+                "NODE_NO_WARNINGS": "1",
+                "TS_NODE_PROJECT": "scripts/tsconfig.json"
+            },
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js"
+            ]
+        }
+    ]
+}

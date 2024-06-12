@@ -1,0 +1,24 @@
+{
+  "name": "minecraft-bedrock-scripting-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev:sync": "node --loader ts-node/esm -r ts-node/register scripts/sync-assets.ts",
+    "dev:compile": "tsc --watch",
+    "dev": "concurrently \"npm run dev:sync\" \"npm run dev:compile\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@minecraft/server": "1.7.0-rc.1.20.60-preview.20",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "concurrently": "^8.2.2",
+    "ts-node": "^10.9.1"
+  }
+}

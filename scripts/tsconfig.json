@@ -1,0 +1,24 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "lib": [
+            "ESNext"
+        ],
+        "target": "ESNext",
+        "types": [
+            "node"
+        ],
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "rootDir": ".",
+        "sourceMap": true,
+        "strict": false,
+        "skipLibCheck": true
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

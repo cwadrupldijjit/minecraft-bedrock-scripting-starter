@@ -1,0 +1,9 @@
+{
+    "format_version": "1.20.30",
+    "expandednotes:advanced_note_block": {
+        "textures": "advanced_note_block",
+        "carried_textures": "advanced_note_block",
+        "brightness_gamma": 1,
+        "sound": "note_block"
+    }
+}
